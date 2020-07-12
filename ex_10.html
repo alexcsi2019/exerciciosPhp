@@ -1,0 +1,23 @@
+<DOCTYPE html>
+    <!-- Construir um script em PHP que leia o ano de nascimento e o sexo de uma pessoa e que calcule a sua
+idade aproximada. Se o sexo for igual a “M” (masculino) e a idade for igual a 18, imprimir “Serviço Militar
+Obrigatório”, caso contrário, imprimir “Isento de Serviço Militar”.
+-->
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Serviço Militar</title>
+	</head>
+	<body>
+		<form action = "ex_10.php" method = "POST">
+			Digite o ano de nascimento:<br><br>
+			<input type = "text" name = "ano_nasc" size = "10"><br><br>
+			Digite o ano atual:<br><br>
+			<input type = "text" name = "ano_atual" size = "10"><br><br>
+			Sexo:<br><br>
+			<input type = "radio" name = "sexo" value = "M">Masculino<br><br>
+			<input type = "radio" name = "sexo" value = "F">Feminino<br><br>
+			<button type = "submit" name = "enviar" value = "1">Enviar</button>
+		</form>
+	</body>
+</html>

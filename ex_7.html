@@ -1,0 +1,21 @@
+<DOCTYPE html>
+    <!--Construir um script em PHP que leia o salário bruto e o sexo de um funcionário. Se o sexo for “M”
+(masculino), calcular, armazenar e imprimir um desconto de 5% e o salário líquido, caso contrário, calcular,
+armazenar e imprimir um desconto de 3% e o salário líquido.
+-->
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title></title>
+	</head>
+	<body>
+		<form action = "ex_7.php" method = "POST">
+			<label>Informe o seu salário bruto:</label> R$
+			<input type = "text" name = "sal_bruto" size = "10">
+			<p>Selecione o seu sexo:</p>
+			<input type = "radio" name = "genero" checked = "M" value = "M">Masculino<br><br>
+			<input type = "radio" name = "genero" value = "F">Feminino<br><br>
+			<button type = "submit" name = "enviar" value = "1">Enviar</button>
+		</form>
+	</body>
+</html>
